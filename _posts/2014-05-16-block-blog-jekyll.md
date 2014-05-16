@@ -4,8 +4,8 @@ title:  "Block-log - A Minimalistic Jekyll Theme"
 date:   2014-06-09 14:19:00
 categories: jekyll, themes
 ---
-<img src="http://anandu.info/img/block-log.png" title="Squared - A Minimalistic Jekyll Theme" alt="Squared - A Minimalistic Jekyll Theme">
-I have designed a new theme for my blog , its based on the colors of Flat UI and it is minimalistic.Today I share it with the world!!!.
+<img src="http://anandu.info/img/block-log.png">
+Jekyll is pretty rad and figured releasing a cleaned up version of my site as a theme for others to hack and build on would be fun. So here be that theme — I call it Block-log, a responsive Jekyll theme focused on minimalism for personal blogs.
 
 [Live Demo](http://anandu.info/block-log)
 
