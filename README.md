@@ -18,7 +18,7 @@ To add your own posts, add a file to the _posts directory which has the name yea
 <br>Note - the file does not have to be markdown.
 
 To publish the post, just <code>git push</code> it to your own github repo and your set!
-> After Cloning make sure to delete the gh-pages branch .Because it contains a lot of junk used for the demo site.
+> #After Cloning make sure to delete the <code>gh-pages</code> branch, Because it contains a lot of junk used for the demo site.
 
 Things to change on `_config.yml`
 ====================
