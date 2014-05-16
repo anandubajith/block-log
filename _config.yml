@@ -1,4 +1,5 @@
-name: Your New Jekyll Site
+name: block-log
+description: Hi, This is <b>block-log</b>.<br>A Jekyll theme build with minimalist blocks
 markdown: redcarpet
 pygments: true
 disqus-id: anandu
