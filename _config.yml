@@ -1,0 +1,7 @@
+name: Your New Jekyll Site
+markdown: redcarpet
+pygments: true
+disqus-id: anandu
+email: me@example.com
+twitter: twitterusername
+github: gitusername

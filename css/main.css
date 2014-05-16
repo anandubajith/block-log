@@ -1,0 +1,185 @@
+/*****************************************************************************/
+/*
+/* Simple Reset
+/*
+/*****************************************************************************/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*****************************************************************************/
+/*
+/* Colors
+/*
+/*****************************************************************************/
+
+.color1 {
+    background: rgba(25, 117, 229, 0.3);
+}
+.color2 {
+    background: rgba(255, 244, 43, 0.5);
+}
+.color3 {
+    background: white;
+}
+.color4 {
+    background: rgba(138, 219, 79, 0.3);
+}
+
+
+/*****************************************************************************/
+/*
+/* Basic
+/*
+/*****************************************************************************/
+
+body {
+    margin: 0;
+    font-family: Ubuntu, sans-serif;
+    font-size: x-large;
+    background: #f2f2f2;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: color 0.25s ease-in, background 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in, background 0.25s ease-in;
+    -o-transition: color 0.25s ease-in, background 0.25s ease-in;
+    transition: color 0.25s ease-in, background 0.25s ease-in
+}
+
+p {
+    line-height: 1.4;
+}
+
+/*****************************************************************************/
+/*
+/* Navigation
+/*
+/*****************************************************************************/
+
+nav a {
+    padding: 0.4em;
+    background: #fff;
+    display: inline-block;
+}
+nav a:nth-child(2n) {
+    margin: 10px
+}
+nav a:hover {
+    background: rgba(210, 23, 23, 0.7);
+    border: 0;
+    color: #fff !important;
+}
+
+
+article p a:hover {
+    background: rgba(210, 23, 23, 0.7);
+    border: 0;
+    color: #fff !important;
+}
+
+
+article p a {
+    border-bottom: .125em solid #ccc;
+    padding: 0 0 .15em 0;
+    display: inline;
+}
+
+.main-header {
+    width: 35%;
+    float: left;
+    line-height: 1.7
+}
+.main-header h1 {
+    margin: 0;
+}
+.main-header a {
+    color: #000;
+    font-weight: normal
+}
+.main-header a:hover,
+.main-header a:focus {
+    color: black;
+}
+.main-content {
+    width: 65%;
+    float: right;
+    padding: 0;
+}
+.main-content a {
+    color: #d21717;
+}
+.main-content a:hover,
+.main-content a:focus {
+    color: #E40000;
+}
+time {
+    color: #ccc;
+    position: absolute;
+    top: 0.75em;
+    right: 0.75em;
+}
+hr {
+    height: 1px;
+    border: 0;
+    background: #cccccc;
+    margin: 50px 0;
+}
+.module {
+    margin: 1.5em;
+    padding: 1.5em;
+    position: relative;
+    overflow: hidden;
+}
+.main-content .module {
+    margin-left: 0;
+}
+.module img {
+    max-width: 100%;
+    height: auto;
+}
+nav.module {
+    padding-top: 1.5em;
+}
+pre {
+    background: #f7f7f7;
+    padding: 0.4em;
+}
+blockquote {
+    position: relative;
+    border: .1em solid #ddd;
+    border-top-color: #eee;
+    border-bottom-color: #bbb;
+    padding: 1.5em;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+    -moz-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+    box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+}
+/*****************************************************************************/
+/*
+/* Responsive
+/*
+/*****************************************************************************/
+
+@media (max-width: 850px) {
+    body {
+        font-size: large;
+    }
+    .main-header,
+    .main-content {
+        width: 100%;
+        padding: 0.75em;
+    }
+    nav {
+        text-align: center;
+    }
+    nav br {
+        display: none;
+    }
+    nav a {
+        margin: 0 0.75em;
+    }
+}
