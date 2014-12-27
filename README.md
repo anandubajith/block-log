@@ -1,7 +1,6 @@
-<img src="http://anandu.info/img/block-log.png">
 Jekyll is pretty rad and figured releasing a cleaned up version of my site as a theme for others to hack and build on would be fun. So here be that theme — I call it Block-log, a responsive Jekyll theme focused on minimalism for personal blogs.
 
-[Live Demo](http://anandu.info/block-log)
+[Live Demo](https://anandu.net/block-log)
 
 [Download](https://github.com/anandubajith/block-log/archive/master.zip)
 
