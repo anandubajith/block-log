@@ -1,46 +1,13 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
-    <meta name="robots" content="index,follow"/> 
-    <meta name="revisit-after" content="1 days"/>        
-    <meta name="viewport" content="width=device-width, initial-scale=1" >
-    <meta name="HandheldFriendly" content="True"/>
-    <meta name="MobileOptimized" content="320"/>
-    <meta http-equiv="cleartype" content="on"/>
-    <link rel="stylesheet" href="/css/syntax.css" type='text/css'>
-    <link rel="stylesheet" href="/css/main.css" type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-</head>
-
+  {% include head.html %}
 <body>
-    <header class="main-header">
-        <div class="module color1">
-            <h1><a href="/">{{ site.name }}</a></h1>
-        </div>
-        
-        <div class="module color2">
-            {{ site.description }}
-        </div>
-        
-        <nav class="module color4">
-            <a href="/">Home</a>
-            <a href="/about/">About</a>
-            <a href="/contact/">Contact</a>
-        </nav>
+  {% include header.html %}
 
-        <div class="module color3">
-            github/{{ site.github }}
-            <br>twitter/{{ site.twitter }}
-            <br>{{ site.email }}
-        </div>
-        
-    </header>
-    
+  <section class="main-content">
     {{ content }}
-    
+      {% include footer.html %}
+  </section>
+
 </body>
 </html>

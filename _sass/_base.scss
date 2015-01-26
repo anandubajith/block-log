@@ -1,3 +1,4 @@
+
 /*****************************************************************************/
 /*
 /* Simple Reset
@@ -16,16 +17,16 @@
 /*****************************************************************************/
 
 .color1 {
-    background: rgba(25, 117, 229, 0.3);
+    background: $color-1;
 }
 .color2 {
-    background: rgba(255, 244, 43, 0.5);
+    background: $color-2;
 }
 .color3 {
-    background: white;
+    background: $color-3;
 }
 .color4 {
-    background: rgba(138, 219, 79, 0.3);
+    background: $color-4;
 }
 
 
@@ -37,7 +38,7 @@
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $base-font-family;
     font-size: x-large;
     background: #f2f2f2;
 }
@@ -87,6 +88,10 @@ article p a {
     display: inline;
 }
 
+article h1{
+    font-size:1.4em
+}
+
 /*****************************************************************************/
 /*
 /* Header
@@ -122,11 +127,11 @@ article p a {
     padding: 0;
 }
 .main-content a {
-    color: #d21717;
+    color: $link;
 }
 .main-content a:hover,
 .main-content a:focus {
-    color: #E40000;
+    color: $link-hover;
 }
 time {
     color: #ccc;
@@ -141,7 +146,7 @@ hr {
     margin: 50px 0;
 }
 .module {
-    margin: 1.5em;
+    margin: 1em;
     padding: 1.5em;
     position: relative;
     overflow: hidden;
@@ -201,4 +206,20 @@ blockquote {
     nav a {
         margin: 0 0.75em;
     }
+}
+
+
+.pagination { text-align: center; }
+    .pagination .page_number { color: #888; }
+    .pagination .nolink { color: #666; }
+
+    .pagination .next,.right {
+float: right;
+}
+.pagination .previous,.left{
+    float:left;
+}
+
+footer.module{
+    background: #e3e3e3
 }

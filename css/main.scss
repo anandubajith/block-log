@@ -1,0 +1,24 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: 'Open Sans',Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$color-1:rgba(25, 117, 229, 0.3);;
+$color-2:rgba(255, 244, 43, 0.5);
+$color-3:white;
+$color-4:rgba(138, 219, 79, 0.3);
+$link:#d21717;
+$link-hover:#E40000;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;

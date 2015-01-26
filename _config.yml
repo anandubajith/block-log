@@ -1,8 +1,17 @@
-name: block-log
-description: Hi, This is <b>block-log</b>.<br>A Jekyll theme build with minimalist blocks
-markdown: redcarpet
-pygments: true
-disqus-id: anandu
-email: me@example.com
-twitter: twitterusername
-github: gitusername
+# Site settings
+title: block-log
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter: username
+github:  username
+
+# Build settings
+markdown: kramdown
+paginate: 3
+author: John Doe
+disqus-id: demo
