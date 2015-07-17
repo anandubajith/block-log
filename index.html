@@ -1,33 +1,28 @@
 ---
 layout: default
 ---
-<div class="posts">
- {% for post in paginator.posts limit:1 %}
-        <article class="module color3">
-                <h2><a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-                <time>{{ post.date| date: "%m/%d/%Y" }}</time>
-                <p>{{ post.content | strip_html | truncate: 250 }}</p>
-        </article>
-    {% endfor %}
 
-    {% for post in paginator.posts offset:1 %}
-        <article class="module color3">
-            <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-            <time>{{ post.date| date: "%m/%d/%Y" }}</time>
-        </article>
-    {% endfor %}
- 
-</div>
-  <div class="module pagination color3">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl  }}" class="previous">Previous</a>
-        {% endif %}
+{% for post in site.posts limit:1 %}
+  <article class="module color3">
+    <h2>
+      <a class="red" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
+    <p>
+      {{ post.content | strip_html | truncate: 250 }}
+    </p>
+  </article>
+{% endfor %}
 
-        <span class="page_number">&mdash; {{ paginator.page }} of {{ paginator.total_pages }} &mdash;</span>
+{% for post in site.posts offset:1 limit:4 %}
+  <article class="module color3">
+    <h2>
+      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h2>
+    <time>{{ post.date| date: "%m/%d/%Y" }}</time>
+</article>
+{% endfor %}
 
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="next">Next</a>
-        {% endif %}
-    </div>
-
-
+<section class="module color3">
+  <a href="{{ 'archives' | prepend: site.baseurl }}">More Posts &rarr;</a>
+</section>

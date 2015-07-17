@@ -1,0 +1,202 @@
+.color1 {
+    background: $blue;
+}
+.color2 {
+    background: $yellow;
+}
+.color3 {
+    background: white;
+}
+.color4 {
+    background: $green;
+}
+
+
+/*****************************************************************************/
+/*
+/* Basic
+/*
+/*****************************************************************************/
+
+body {
+    margin: 0;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    background: $body-background;
+}
+a {
+    text-decoration: none;
+    -webkit-transition: color 0.25s ease-in, background 0.25s ease-in;
+    -moz-transition: color 0.25s ease-in, background 0.25s ease-in;
+    -o-transition: color 0.25s ease-in, background 0.25s ease-in;
+    transition: color 0.25s ease-in, background 0.25s ease-in
+}
+
+p {
+    line-height: $base-line-height;
+}
+.module {
+    margin: $spacing-unit;
+    padding: $spacing-unit;
+    position: relative;
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+}
+
+
+
+/*****************************************************************************/
+/*
+/* Navigation
+/*
+/*****************************************************************************/
+
+nav {
+  a {
+    padding: 0.4em;
+    background: #fff;
+    display:inline-block;
+    &:nth-child(2n) {
+      margin: 10px;
+    }
+    &:hover {
+      background: $link-hover;
+      border: 0;
+      color: #fff !important;
+      // for now
+    }
+  }
+  .module {
+    padding-top: $spacing-unit;
+  }
+}
+
+article p a:hover {
+    background: $link-hover;
+    border: 0;
+    color: #fff !important;
+}
+
+
+article p a {
+    border-bottom: .125em solid #ccc;
+    padding: 0 0 .15em 0;
+    display: inline;
+}
+
+/*****************************************************************************/
+/*
+/* Header
+/*
+/*****************************************************************************/
+
+.main-header {
+    width: 35%;
+    float: left;
+    line-height: 1.7;
+
+    h1 {
+      margin: 0;
+    }
+
+    a {
+      color: #000;
+      font-weight: normal;
+      &:hover,
+      &:focus {
+        color: #000;
+      }
+    }
+}
+
+header {
+  background: $blue;
+}
+
+/*****************************************************************************/
+/*
+/* Content
+/*
+/*****************************************************************************/
+
+.main-content {
+  width: 65%;
+  float:right;
+  padding:0;
+
+  a {
+    color: #d21717;
+    &:hover,
+    &:focus {
+      color: #E40000;
+    }
+  }
+  .module {
+    margin-left: 0;
+  }
+}
+
+time {
+    color: #ccc;
+    position: absolute;
+    top: 0.75em;
+    right: 0.75em;
+}
+hr {
+    height: 1px;
+    border: 0;
+    background: #cccccc;
+    margin: 50px 0;
+}
+
+pre {
+    background: #f7f7f7;
+    padding: 0.4em;
+}
+
+blockquote {
+    position: relative;
+    border: .1em solid #ddd;
+    border-top-color: #eee;
+    border-bottom-color: #bbb;
+    padding: $spacing-unit;
+    background: #f2f2f2;
+    -webkit-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+    -moz-box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+    box-shadow: 0 1px 4px #ccc, 0 5px 12px -8px #555;
+}
+/*****************************************************************************/
+/*
+/* Responsive
+/*
+/*****************************************************************************/
+
+@media (max-width: 850px) {
+    body {
+        font-size: large;
+    }
+    .main-header,
+    .main-content {
+        width: 100%;
+        padding: 0.75em;
+    }
+    .main-header .module {
+        margin-left: 0;
+    }
+    .main-content .module {
+        margin-top: 0;
+    }
+    nav {
+        text-align: center;
+    }
+    nav br {
+        display: none;
+    }
+    nav a {
+        margin: 0 0.75em;
+    }
+}

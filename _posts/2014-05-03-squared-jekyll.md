@@ -20,7 +20,7 @@ To start you own blog, simply git clone the repository on github. You could also
 <pre><code>git clone https://github.com/anandubajith/squared.git</code></pre>
 Then you will need to edit the _config.yml file at the root of repository.
 
-To add your own posts, add a file to the _posts directory which has the name year-month-day-title.md. 
+To add your own posts, add a file to the _posts directory which has the name year-month-day-title.md.
 <br>Note - the file does not have to be markdown.
 
 To publish the post, just <code>git push</code> it to your own github repo and your set!
@@ -33,7 +33,7 @@ There is a config file at the root called `_config.yml`. By Default it looks lik
     markdown: redcarpet
     permalink: /:title
     disqus-id: anandu
-    url: http%3A%2F%2Fanandu.info 
+    url: http%3A%2F%2Fanandu.info
     twitter-username: anandubajith
     author: Anandu
 
@@ -74,4 +74,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
