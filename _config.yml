@@ -1,5 +1,5 @@
 # Site settings
-title:        "Block-Log"
+title:        "block-Log"
 description:  "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolor"
 baseurl:      "" # the subpath of your site, e.g. /blog/
 url:          "http://yourdomain.com" # the base hostname & protocol for your site
