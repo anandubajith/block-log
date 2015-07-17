@@ -3,12 +3,8 @@ block-log
 
 <img src="/images/block-log.png" title="block-log theme" alt="A screenshot of block-log theme."">
 
-[Live Demo](https://anandu.net/demo/block-log/)
-
-[Download](https://github.com/anandubajith/block-log/archive/master.zip)
-
-[Github Repo](https://github.com/anandubajith/block-log)
-
+| [Live demo](https://anandu.net/demo/block-log/) | [Github Repo](https://github.com/anandubajith/block-log) | [Download zip(https://github.com/anandubajith/block-log/archive/master.zip) |
+|-----------|-------------|---------------|
 
 Setting up
 ====================
