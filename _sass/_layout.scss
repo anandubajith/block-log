@@ -60,7 +60,7 @@ p {
     }
   }
   .module {
-    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -191,6 +191,11 @@ blockquote {
     }
     .main-content .module {
         margin-top: 0;
+    }
+    article.module {
+        margin-left: 1.5em;
+        margin-right: 0;
+    }
     }
     nav {
         text-align: center;
