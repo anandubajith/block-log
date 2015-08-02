@@ -11,3 +11,5 @@ disqus-id:    "example" #leave blank if you dont want comments.
 
 # Build settings
 markdown:     kramdown
+sass:
+    style: :compressed
