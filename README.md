@@ -33,6 +33,8 @@ twitter:      "yourusername"
 email:        "mail@example.com"
 disqus-id:    "example" #leave blank if you dont want comments.
 markdown:     kramdown
+sass:
+    style: :compressed
 ```
 
 For more information on Jekyll, visit their [wiki on github](https://github.com/mojombo/jekyll/wiki).
