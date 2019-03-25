@@ -1,7 +1,7 @@
 block-log
 =========
 
-<img src="/images/block-log.png" title="block-log theme" alt="A screenshot of block-log theme."">
+![A screenshot of block-log theme.](/images/block-log.png)
 
 | [Live demo](https://anandu.net/demo/block-log/) | [Github Repo](https://github.com/anandubajith/block-log) | [Download zip](https://github.com/anandubajith/block-log/archive/master.zip) |
 |-----------|-------------|---------------|
@@ -42,7 +42,7 @@ For more information on github pages: [http://pages.github.com](http://pages.git
 
 License
 ====================
-###The MIT License (MIT)
+### The MIT License (MIT)
 
 Copyright (c) 2015 Anandu B Ajith
 
